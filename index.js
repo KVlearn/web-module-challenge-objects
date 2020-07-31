@@ -81,13 +81,7 @@ console.log(reviews[reviews.length-1]);
 /* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
 
 const fbValue="his place is chill with really cool people, great for getting work done on weekdays";
-
-// for(i=0;i<reviews.length;i++){
-//   if (reviews[i].name === "Reyna"){
-//     console.log('hello there')
-//     reviews[i].feedback = fbValue;
-//   }
- /* Invoke below function to add feedback to any name in the array */
+  /* Invoke below function to add feedback to any name in the array */
   function addFeedback(yourArray,inName,yourFeedback){
    for(i=0;i<yourArray.length;i++){
      if(yourArray[i].name === inName){
@@ -218,6 +212,6 @@ function carMaker(odoNum) {
 console.log('Stretch#3:')
 console.log(carMaker(100));
 console.log(newobj.drive(50));
-console.log(newobj);
+// console.log(newobj);
 
  
